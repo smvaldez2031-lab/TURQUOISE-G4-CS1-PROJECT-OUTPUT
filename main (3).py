@@ -13,9 +13,9 @@ def Display(savings, days):
     elif savings == 0:
         print("Caution, you have spent the same amount as your budget.")
     else:
-        per_day_save = savings / days
-        print(f"You have saved {savings:.2f} peso(s).")
-        print(f"You saved around {per_day_save:.2f} peso(s) saved per day.")
+    per_day_save = savings / days
+    print(f"You have saved {savings:.2f} peso(s).")
+    print(f"You saved around {per_day_save:.2f} peso(s) saved per day.")
 name_1 = input("Please Enter your first name: ")
 while name_1 == "":
     name_1 = input("Please Enter your first name: ")
